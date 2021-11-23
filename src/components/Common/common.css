@@ -1,0 +1,35 @@
+.container-center {
+    background-color: #ece7e1;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+    padding-left: 9%;
+    padding-right: 9%;
+    position: relative;
+    overflow: visible;
+}
+
+.container-center::before {
+    content: "";
+    left: 0;
+    height: 0;
+    top: -1em;
+    display: block;
+    position: absolute;
+    font-size: 3rem;
+    z-index: 2;
+    border-left: 0 solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 1em solid #ece8e1;
+}
+
+.container-center::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    pointer-events: none;
+    /* left: 129px; */
+    border-left: 1px solid rgba(9, 9, 9, 0.4);
+}

@@ -1,0 +1,25 @@
+.maps-image {
+    position: absolute;
+    bottom: -350px;
+    right: 0;
+    height: 62vw;
+    width: 100%;
+    max-height: 88rem;
+    background: none;
+}
+
+.maps-image > div:first-of-type {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.maps-info {
+    background-color: #ece8e1;
+    padding-left: 7.3%;
+    padding-right: 7.3%;
+    height: auto;
+    width: 100%;
+    max-width: 123rem;
+    position: relative;
+}

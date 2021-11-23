@@ -1,0 +1,109 @@
+.character-info {
+    display: flex;
+    background: url(./../../assets/images/agents-background.jpg) 100% 100% / cover no-repeat;
+    background-color: #fa4452;
+    overflow: visible;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-left: 9%;
+    padding-right: 9%;
+    box-sizing: border-box;
+}
+
+.character-info::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    pointer-events: none;
+    border-left: 1px solid rgba(236, 232, 225, 0.5);
+}
+
+.character-info-title-container {
+    height: min-content;
+    overflow: hidden;
+}
+
+.character-info-title {
+    margin: 0;
+    display: block;
+    max-width: 450px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 84px;
+    word-break: normal;
+    transform: translateY(100%);
+    transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    line-height: 0.86;
+    padding-top: 100px;
+}
+
+.character-info-table {
+    height: 100%;
+    /* width: 50%; */
+}
+
+.character-vector {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    height: auto;
+    width: 100%;
+    max-width: 640px;
+    transition: transform 0.65s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.character-info-data {
+    padding-left: 60px;
+}
+
+.character-info-data h4 {
+    margin-top: 50px;
+    color: #ece8e1;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.character-info-data > p {
+    width: 250px;
+}
+
+.character-info-data p > span {
+    color: #ece8e1;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.character-info-data > button {
+    margin-bottom: 50px;
+}
+
+.character-info-title-container > .move-up {
+    transform: translateY(0px) !important;
+}
+
+.character-btn {
+    margin-bottom: 100px;
+}
+
+.btn-agents {
+    margin: 30px 0;
+    background-color: #ece8e1;
+    width: auto;
+    border: none;
+    color: #0f1923;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    width: 250px;
+    height: 50px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+}
