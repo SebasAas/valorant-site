@@ -24,5 +24,5 @@ npm build
 URL Live Site
  * Comming Soon!
 
-### Technologies
+### Technologies 
 * [REACT](https://reactjs.org/) - Library UI
